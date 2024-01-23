@@ -39,7 +39,7 @@ function Membership() {
     <div className='container col-md-3  mt-2  p-3 card '>
     <h3>Pakage</h3>
     <div className='d-flex '>
-    <h1>💲2000</h1><span><sub>/per months</sub></span>
+    <h1>💲1500</h1><span><sub>/per months</sub></span>
     </div>
     <p>✔ Diet PLAN</p>
     <p>✔ 6 classes per week</p>
