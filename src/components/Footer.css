@@ -1,0 +1,130 @@
+
+.footer {
+    background: #000;
+    width: 100vw;
+  
+  }
+  
+  .footer-col h5 {
+    color: whitesmoke;
+    padding: 10px 0px;
+  }
+  
+  .footer-col h5:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .footer-col li {
+    padding: 0.2rem 0;
+  
+  }
+  
+  .footer-col a:hover {
+    color: blue;
+  
+  }
+  
+  .footer-col-last p {
+    color: whitesmoke;
+    padding: 10px 0px;
+    font-size: 20px;
+  }
+  
+  .footer-col-last input {
+    padding: 8px 5px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+  }
+  
+  .fa-paper-plane {
+    color: red;
+    font-size: 25px;
+    position: relative;
+    right: 15%;
+    cursor: pointer;
+  
+  }
+  
+  .footer-icons i {
+    color: red;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-icons a,
+  li {
+    color: cyan;
+  
+  }
+  
+  .footer-sam p {
+    color: white;
+  }
+  
+  .footer-sam p {
+    color: white;
+  }
+  
+  .footer-sam span {
+    font-size: 25px;
+    color: gold;
+    border-bottom: 2px solid;
+  }
+  
+  .social-icons i {
+    padding: 12px 12px;
+    margin: 8px 5px;
+    font-size: 18px;
+    background: white;
+    color: blue;
+    border-radius: 50%;
+    /* box-shadow: -3px -3px 7px #ffffff73,3px 3px 7px rgba(94,104,121,0.288); */
+  
+  }
+  
+  .social-icons .fa-youtube {
+    color: red;
+  }
+  
+  .social-icons i:hover {
+    transition: all 0.5s linear;
+    background: #dde1e7;
+    box-shadow: inset -3px -3px 7px #ffffff73,
+      inset 3px 3px 7px rgba(94, 104, 121, 0.288);
+    border-radius: 20%;
+    padding: 10px;
+  }
+
+
+  @media(max-width:768px){
+    
+  .footer {
+    text-align: center;
+  }
+
+  .footer-sam span {
+    font-size: 18px;
+  }
+  .fa-paper-plane {
+    display: none;
+
+  }
+
+  .footer-col-last input {
+    padding: 10px 0px;
+  }
+  .social-icons i {
+    padding: 10px 10px;
+    margin: 5px 3px;
+    font-size: 18px;
+    background: #dde1e7;
+    border-radius: 40%;
+
+  }
+
+  }

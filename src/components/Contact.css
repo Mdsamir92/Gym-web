@@ -1,0 +1,46 @@
+.contact-profile img{
+  height:80vh;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.form-container {
+    background: rgba(218, 38, 173, 0.50);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.30); */
+    box-shadow: -10px 10px 10px 5px grey;
+    backdrop-filter: blur(20px);
+    padding: 50px 50px;
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 20px;
+  
+}
+.form-container input{
+    width: 80%;
+}
+
+
+@media(max-width:768px){
+
+    .contact-profile img{
+        height:40vh;
+        border-radius: 15px;
+        margin-left: 20px;
+        
+      }
+      .contact-heading h2,h3,h4 {
+        margin-top: 35px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .form-container {
+        padding: 30px 40px;
+        width: 90%;
+        margin-left: 20px;
+    
+      }
+      .contact-form h3{
+      text-align: center;
+      padding: 5px 0px;
+     
+      }
+}
