@@ -81,6 +81,9 @@ iframe {
     font-weight: 500;
     margin-bottom: 20px
 }
+.img-text p{
+    text-align: justify;
+}
 
 .img-text h3{
     font-size: 25px;
