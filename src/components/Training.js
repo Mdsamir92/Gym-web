@@ -11,6 +11,34 @@ function Training() {
                 </div>
 
             </div>
+
+            <div class="text-center mt-5">
+                <h1>About Us</h1>
+            </div>
+            <div class="about">
+
+                <div class="about-child">
+                    <h1>💕</h1>
+                    <h2>1000+</h2>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="about-child">
+                    <h1>🎊</h1>
+                    <h2>100+</h2>
+                    <p>Certified Trainers</p>
+                </div>
+                <div class="about-child">
+                    <h1>🏆</h1>
+                    <h2>100%</h2>
+                    <p>Results</p>
+                </div>
+                <div class="about-child">
+                    <h2>📞</h2>
+                    <h1>24 X 7</h1>
+                    <p>Technical Support</p>
+                </div>
+            </div>
+
             <div className='trainer container text-center col-md-6 mt-3' data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" >
                 <h2>TAKE YOUR FITNESS TO THE NEXT LEVEL WITH OUR CERTIFIED PERSONAL TRAINERS.</h2>
             </div>
@@ -23,9 +51,9 @@ function Training() {
                 </div>
 
                 <div className='col-md-6'>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E8RfEkP7RnA?si=qHMKQBxmlYDuvbRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
-               </div>
-               </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E8RfEkP7RnA?si=qHMKQBxmlYDuvbRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
 
             <div className='row container home-sec-2 ' data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <div className='container col-md-4 section-img2'  >
