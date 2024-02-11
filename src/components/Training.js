@@ -20,7 +20,7 @@ function Training() {
                 <div class="about-child">
                     <h1>💕</h1>
                     <h2>1000+</h2>
-                    <p>Happy Customers</p>
+                    <p>Happy Members</p>
                 </div>
                 <div class="about-child">
                     <h1>🎊</h1>
