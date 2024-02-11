@@ -9,10 +9,10 @@ function Membership() {
 
   return (
     <div className='container'>
-    <div className=' row  p-3  best-plan'>
+    <div className=' row  p-3  best-plan' data-aos="flip-up" data-aos-duration="1000" data-aos-easing="linear">
     <h2  data-aos="flip-down" data-aos-duration="1000" data-aos-easing="linear">Choose Our popular Plan.!</h2>
 
-    <div className='container col-md-3 p-3 card mt-2' data-aos="flip-up" data-aos-duration="1000" data-aos-easing="linear" >
+    <div className='container col-md-3 p-3 card mt-2' >
     <h3>Pakage</h3>
     <div className=' d-flex '>
     <h1>💲500</h1><span><sub>/per months</sub></span>
@@ -24,7 +24,7 @@ function Membership() {
     <button className='btn btn-warning'>choose plan</button>   
     </div>
    
-    <div className='container col-md-3 mt-2 p-3 card' data-aos="flip-up" data-aos-duration="1000" data-aos-easing="linear">
+    <div className='container col-md-3 mt-2 p-3 card'>
     <h3>Pakage</h3>
     <div className='d-flex '>
     <h1>💲1000</h1><span><sub>/per months</sub></span>
@@ -36,7 +36,7 @@ function Membership() {
     <button className='btn btn-warning'>choose plan</button>
     </div>
 
-    <div className='container col-md-3  mt-2  p-3 card' data-aos="flip-up" data-aos-duration="1000" data-aos-easing="linear">
+    <div className='container col-md-3  mt-2  p-3 card' >
     <h3>Pakage</h3>
     <div className='d-flex '>
     <h1>💲2000</h1><span><sub>/per months</sub></span>
