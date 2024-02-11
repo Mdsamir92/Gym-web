@@ -36,7 +36,7 @@ function Hero() {
 
     <div>
 
-      <div className="home " data-aos="fade-right" data-aos-duration="1000"  data-aos-easing="ease-in-out">
+      <div className="home " data-aos="flip-right" data-aos-duration="1000"  data-aos-easing="linear">
       <button className='slider-l' onClick={handlePrevClick}>&lt;</button>
         <img  src={Img[activeImg]} alt="wallpaper" />
         <button className='slider-r' onClick={handleNextClick} >&gt;</button>
@@ -116,7 +116,6 @@ function Hero() {
         <div className='container col-md-4 fire-builder' data-aos="fade-right" data-aos-duration="1000"  data-aos-easing="ease-in-out">
           <img height={500} width={400} src='./assets/fire-builder.jpg' />
         </div>
-
 
       </div>
 
