@@ -8,11 +8,11 @@ function Membership() {
   const [phone, setPhone] = useState("");
 
   return (
-    <div>
-    <div className='container row  p-3  best-plan' data-aos="fade-up" data-aos-duration="1000"  data-aos-easing="ease-in-out">
-    <h2  data-aos="fade-right" data-aos-duration="1000"  data-aos-easing="ease-in-out">Choose Our popular Plan.!</h2>
+    <div className='container'>
+    <div className=' row  p-3  best-plan'>
+    <h2  data-aos="flip-down" data-aos-duration="1000" data-aos-easing="linear">Choose Our popular Plan.!</h2>
 
-    <div className='container col-md-3 p-3 card mt-2' >
+    <div className='container col-md-3 p-3 card mt-2' data-aos="flip-up" data-aos-duration="1000" data-aos-easing="linear" >
     <h3>Pakage</h3>
     <div className=' d-flex '>
     <h1>💲500</h1><span><sub>/per months</sub></span>
@@ -24,7 +24,7 @@ function Membership() {
     <button className='btn btn-warning'>choose plan</button>   
     </div>
    
-    <div className='container col-md-3 mt-2 p-3 card '>
+    <div className='container col-md-3 mt-2 p-3 card' data-aos="flip-up" data-aos-duration="1000" data-aos-easing="linear">
     <h3>Pakage</h3>
     <div className='d-flex '>
     <h1>💲1000</h1><span><sub>/per months</sub></span>
@@ -36,10 +36,10 @@ function Membership() {
     <button className='btn btn-warning'>choose plan</button>
     </div>
 
-    <div className='container col-md-3  mt-2  p-3 card '>
+    <div className='container col-md-3  mt-2  p-3 card' data-aos="flip-up" data-aos-duration="1000" data-aos-easing="linear">
     <h3>Pakage</h3>
     <div className='d-flex '>
-    <h1>💲1500</h1><span><sub>/per months</sub></span>
+    <h1>💲2000</h1><span><sub>/per months</sub></span>
     </div>
     <p>✔ Diet PLAN</p>
     <p>✔ 6 classes per week</p>
@@ -54,8 +54,8 @@ function Membership() {
 
     </div>
 
-        <div className=' choose-plan container col-md-4' data-aos="fade-right" data-aos-duration="1000"  data-aos-easing="ease-in-out">
-        <h3> Choose Your Plans</h3>
+        <div className=' choose-plan container col-md-6' data-aos="fade-right" data-aos-duration="1000"  data-aos-easing="ease-in-out">
+        <h3 className='text-center'> Choose Your Plans</h3>
         <div className='form-container'>
         <form action="https://formspree.io/f/xeqdqalv" method="POST" >
           <div className="mb-3">
