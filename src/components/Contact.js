@@ -10,7 +10,6 @@ function Contact() {
   return (
     <div className='container row mt-3  contact-profile'>
       <div className='container col-md-5 contact-profile ' data-aos="fade-down" data-aos-duration="1000"  data-aos-easing="ease-in-out">
-      
         <img  src='./assets/samir.jpg'/>
      </div>
 <div className=' contact-heading container col-md-6' data-aos="fade-right" data-aos-duration="1000"  data-aos-easing="ease-in-out">
@@ -29,8 +28,8 @@ our team is always ready to hear from you. we make it a point to respond within 
       </iframe>
      </div>
 
-     <div className='contact-form col-md-4 mt-4'>
-        <h3> Send your details</h3>
+     <div className='contact-form col-md-5 mt-4 '>
+        <h3 className='text-center'> Send your details</h3>
         <div className='form-container'>
         <form action="https://formspree.io/f/xeqdqalv" method="POST" >
           <div className="mb-3">
