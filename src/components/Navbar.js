@@ -8,7 +8,7 @@ function Navbar() {
 
 <nav className="navbar navbar-expand-lg  ">
   <div className="container">
-    <a className="logo" href="#" data-aos="fade-left" data-aos-duration="1000"  data-aos-easing="ease-in-out">Sam
+    <a className="logo" href="#" data-aos="fade-right" data-aos-duration="1000"  data-aos-easing="ease-in-out">Sam
     <img src='./assets/logo1.jpg' />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
