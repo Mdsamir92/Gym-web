@@ -12,27 +12,27 @@ function Training() {
 
             </div>
 
-            <div class="text-center mt-5">
+            <div class="text-center mt-5" data-aos="fade-down" data-aos-duration="1000"  data-aos-easing="linear">
                 <h1>About Us</h1>
             </div>
             <div class="about">
 
-                <div class="about-child">
+                <div class="about-child" data-aos="flip-up" data-aos-duration="1200"  data-aos-easing="linear">
                     <h1>💕</h1>
                     <h2>1000+</h2>
                     <p>Happy Members</p>
                 </div>
-                <div class="about-child">
+                <div class="about-child" data-aos="flip-up" data-aos-duration="1200"  data-aos-easing="linear">
                     <h1>🎊</h1>
                     <h2>100+</h2>
                     <p>Certified Trainers</p>
                 </div>
-                <div class="about-child">
+                <div class="about-child" data-aos="flip-up" data-aos-duration="1200"  data-aos-easing="linear">
                     <h1>🏆</h1>
                     <h2>100%</h2>
                     <p>Results</p>
                 </div>
-                <div class="about-child">
+                <div class="about-child" data-aos="flip-up" data-aos-duration="1200"  data-aos-easing="linear">
                     <h2>📞</h2>
                     <h1>24 X 7</h1>
                     <p>Technical Support</p>
